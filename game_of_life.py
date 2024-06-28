@@ -17,7 +17,7 @@ class Matrice:
     new_P = self.P.copy()
     for cell in self.P:
       if not (1 < self.count_neighbors(cell) <= 3): new_P.remove(cell)
-      for cell_ in self.neighbors(cell): new_P.add(cell_) if self[*cell_] == 0 and self.count_neighbors(cell_) == 3 else None
+      for cell_ in self.neighbors(cell): new_P.add(cell_) if self[cell_] == 0 and self.count_neighbors(cell_) == 3 else None
     self.P = new_P ; del new_P
 
   def run(self, generation: int | None = None, position: tuple = (0,0), color: str | tuple = "green", taille_cell: int = 5, decal: int = 0, color_back: str | tuple = "1", time: int | float = 0.1):

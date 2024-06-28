@@ -5,7 +5,7 @@
 # Conway's Game of Life
 
 ###
-Welcome ! This directory contains an emulator for the Game of Life which you can use on your Numworks or computer (to install the necessary libraries, go [here](https://github.com/Archange-py/Visuel)). If you want to discover this subject you can explore the [Wikipédia page](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
+Welcome ! This directory contains an emulator for the Game of Life which you can use on your Numworks or computer to install the necessary libraries, go [here](https://github.com/Archange-py/Visuel). If you want to discover this subject you can explore the [Wikipédia page](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 
 ## Table of Contents
 ***
@@ -15,7 +15,7 @@ Welcome ! This directory contains an emulator for the Game of Life which you can
 ## General Info
 ***
 ###
-This project includes two files: the Game of Life emulator, which you can download [here]() for the Numworks, and an example file that you can copy and paste into a python script on your calculator.
+This project includes two files: the Game of Life emulator, which you can download [here](https://my.numworks.com/python/archange/game_of_life) for the Numworks, and an example file that you can copy and paste into a python script on your calculator.
 
 ## Examples
 ***
