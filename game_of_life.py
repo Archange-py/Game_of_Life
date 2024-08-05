@@ -21,7 +21,7 @@ class Matrice:
     self.P = new_P ; del new_P
 
   def run(self, generation: int | None = None, position: tuple = (0,0), color: str | tuple = "green", taille_cell: int = 5, decal: int = 0, color_back: str | tuple = "1", time: int | float = 0.1):
-    self.restart() ; self.g = 0
+    self.restart() ; self.g = 0 ; sleep(time)
     while self.g != generation: 
       for cell in self.P: fill_rect(position[0]+cell[0]*(taille_cell+decal),position[1]+cell[1]*(taille_cell+decal),taille_cell,taille_cell,color_back) if self.is_in(position,cell,taille_cell,decal) else None
       self.update() ; self.show(position,color,taille_cell,decal) ; self.g += 1 ; sleep(time)
